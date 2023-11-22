@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#lista-menu {
+    display: grid;
+    list-style: none;
+    grid-template-columns:repeat(3, 20%) 60%;
+    background-color: aqua;
+    padding: 10px;   
+}
+
+#lista-menu>li {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+
+.item-menu {
+    border-radius: 8px;
+    background-color: aliceblue;
+}
